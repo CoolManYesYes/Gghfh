@@ -4,7 +4,7 @@ This Lua script is creating a user interface (UI) library for a Roblox script us
    - The script fetches external Lua files (`Library.lua`, `ThemeManager.lua`, `SaveManager.lua`) from a GitHub repository and loads them into the script.
 
    ```lua
-   local repo = 'https://raw.githubusercontent.com/violin-suzutsuki/LinoriaLib/main/'
+   local repo = 'https://raw.githubusercontent.com/mstudio45/LinoriaLib/main/'
    local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
    local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
    local SaveManager = loadstring(game:HttpGet(repo .. 'addons/SaveManager.lua'))()
